@@ -10,8 +10,10 @@ const Tooltip = ({ text, children }) => {
     >
       {children}
       {showTooltip && <div className="tooltiptext">{text}</div>}
+      
     </div>
   );
+
 };
 
 export default Tooltip;
